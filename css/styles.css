@@ -1,0 +1,166 @@
+:root {
+  --background-color: #2f303a;
+  --main-color: #212121;
+  --hover-color: #2196f3;
+}
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--main-color);
+}
+/* =========STUDIO.HTML========== */
+/* ========MENU======== */
+.menu {
+  width: 1600px;
+  height: 80px;
+  background-color: #ffffff;
+}
+.navigation-item {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0.875;
+}
+.menu-links {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0.875;
+  color: #757575;
+}
+/* ========END MENU======== */
+
+/* ========LOGO======== */
+.webstudio {
+  color: #2196f3;
+}
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 0.839;
+  color: #000000;
+  text-decoration: none;
+}
+.footer .logo {
+  color: #ffffff;
+}
+/* ========END LOGO======== */
+
+/* ========LINKS======== */
+.links {
+  color: inherit;
+  text-decoration: none;
+}
+.links:hover,
+.links:focus {
+  color: var(--hover-color);
+}
+/* ========END LINKS======== */
+
+/* ========HEADER======== */
+.header {
+  background-color: var(--background-color);
+  width: 1600px;
+  height: 600px;
+}
+.header-item {
+  color: #ffffff;
+  text-align: center;
+  font-size: 44px;
+  line-height: 0.733;
+}
+.studio-button {
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 0.533;
+  font-weight: 900;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* ========END HEADER======== */
+
+/* ========MAIN======== */
+.list-header-item {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 0.875;
+}
+.list-item {
+  font-size: 14px;
+  line-height: 0.583;
+}
+.h2 {
+  font-size: 36px;
+  line-height: 0.857;
+}
+.section {
+  background-color: #f5f4fa;
+}
+.figure {
+  width: 270px;
+  height: 368px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.figcaption-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.842;
+  color: inherit;
+}
+.figcaption-span-item {
+  font-size: 16px;
+  line-height: 0.842;
+  color: #757575;
+}
+/* ========END MAIN======== */
+
+/* ========FOOTER======== */
+.address-item {
+  font-size: 14px;
+  line-height: 0.583;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.address-item:hover,
+.address-item:focus {
+  color: var(--hover-color);
+}
+.footer {
+  width: 1600px;
+  height: 252px;
+  background-color: var(--background-color);
+}
+.font-style-normal {
+  font-style: normal;
+  line-height: 24px;
+}
+.address-span {
+  font-size: 14px;
+  line-height: 0.583;
+  color: #ffffff;
+}
+/* ========END FOOTER======== */
+
+/* ==========PORTFOLIO.HTML========== */
+.button {
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 0.615;
+  cursor: pointer;
+  text-align: center;
+}
+.button:hover {
+  background-color: var(--hover-color);
+  color: #ffffff;
+}
+.portfolio-figcaption-item {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 0.5;
+  color: inherit;
+}
+.portfolio-figcaption-span-item {
+  font-size: 16px;
+  line-height: 0.533;
+  color: #757575;
+}
