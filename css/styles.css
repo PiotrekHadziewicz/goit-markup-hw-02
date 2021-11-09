@@ -10,8 +10,6 @@ body {
 /* =========STUDIO.HTML========== */
 /* ========MENU======== */
 .menu {
-  width: 1600px;
-  height: 80px;
   background-color: #ffffff;
 }
 .navigation-item {
@@ -57,8 +55,6 @@ body {
 /* ========HEADER======== */
 .header {
   background-color: var(--background-color);
-  width: 1600px;
-  height: 600px;
 }
 .header-item {
   color: #ffffff;
@@ -95,8 +91,6 @@ body {
   background-color: #f5f4fa;
 }
 .figure {
-  width: 270px;
-  height: 368px;
   background-color: #ffffff;
   text-align: center;
 }
@@ -125,8 +119,6 @@ body {
   color: var(--hover-color);
 }
 .footer {
-  width: 1600px;
-  height: 252px;
   background-color: var(--background-color);
 }
 .font-style-normal {
